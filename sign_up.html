@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FriendlyLinkup - Sign Up</title>
+    <link rel="stylesheet" href="lol.css">
+</head>
+<body>
+
+    <header>
+        <h1>FriendlyLinkup</h1>
+    </header>
+
+    <section>
+        <div class="form-container">
+            <form action="signup_process.php" method="post">
+                <h2>Sign Up</h2>
+
+                <label for="newUsername">Username:</label>
+                <input type="text" id="newUsername" name="newUsername" required>
+
+                <label for="newEmail">Email:</label>
+                <input type="email" id="newEmail" name="newEmail" required>
+
+                <label for="newPassword">Password:</label>
+                <input type="password" id="newPassword" name="newPassword" required>
+
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+                <a href="home.html">Sign Up</a>
+            </form>
+
+            <p>Already have an account? <a href="signin.html">Log In</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 FriendlyLinkup</p>
+    </footer>
+
+</body>
+</html>
